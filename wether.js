@@ -20,7 +20,7 @@ async function wether(loc){
         const response = await axios.request(options);
         return(response.data)
     } catch (error) {
-        console.log(error);
+       
     }}
 
     
